@@ -1,0 +1,44 @@
+{
+ "Account": { "Username": "yoxploit",
+              "Password": "putrasmdart"
+},
+
+ "Interface":{ "Base Bet":"0.01",
+               "Max Bet":"off",
+               "Chance":"49.95",
+               "Random":{"Auto": "on",
+                         "Min" : "80",
+                         "Max" : "90"
+                        },
+
+               "Cl_Seed":{"Auto"       :"off",
+                          "Every_Lose" : "2"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "off",
+                      "On Lose": "3",
+                      "On Win" : "2"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "5.2",
+               "After Lose" : "2.1"
+             },
+
+ "Reset"    :{ "If_Win"   : "2",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "5000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "5"
+             },
+
+ "Withdraw" :{"Auto"   : "off",
+              "Initial": "0",
+              "Trigger": "50000.00000",
+              "Wallet" : "DMwytkGDLJu2dcdugq5UYfu1jay4Bsn2Aa"
+             }
+}
